@@ -14,12 +14,12 @@
         <li><?= $this->Html->link(__('New Subject'), ['controller' => 'Subjects', 'action' => 'add']) ?></li>
     </ul>
 </nav>
-<div class="enrollments index large-9 medium-8 columns content">
-    <h3><?= __('Enrollments') ?></h3>
+<div class="Matricula index large-9 medium-8 columns content">
+    <h3><?= __('Matricula') ?></h3>
     <table cellpadding="0" cellspacing="0">
         <thead>
             <tr>
-                <th scope="col"><?= $this->Paginator->sort('enrollments_id') ?></th>
+                <th scope="col"><?= $this->Paginator->sort('matricula_id') ?></th>
                 <th scope="col"><?= $this->Paginator->sort('grade') ?></th>
                 <th scope="col"><?= $this->Paginator->sort('student_id') ?></th>
                 <th scope="col"><?= $this->Paginator->sort('subject_id') ?></th>
